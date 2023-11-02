@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Weather in Bengaluru</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #FF5733, #33FFBE, #A033FF, #FF3365);
+            background-size: 400% 400%;
+            animation: gradient 10s linear infinite;
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+			color: black;
+            font-size: 36px;
+            margin: 0;
+        }
+
+        p {
+			color: black;
+            font-size: 20px;
+        }
+
+        .weather-content {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        .weather-image {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Weather in Bengaluru</h1>
+        <p>Current conditions and forecast</p>
+    </header>
+
+    <div class="weather-content">
+        <h2>Current Weather</h2>
+        <p>Temperature: 25°C</p>
+        <p>Humidity: 50%</p>
+        <p>Condition: Sunny</p>
+    </div>
+
+    <div class="weather-content">
+        <h2>3-Day Forecast</h2>
+        <div class="forecast-day">
+            <p>Day 1</p>
+            <p>Temperature: 28°C</p>
+            <p>Condition: Partly Cloudy</p>
+        </div>
+        <div class="forecast-day">
+            <p>Day 2</p>
+            <p>Temperature: 27°C</p>
+            <p>Condition: Sunny</p>
+        </div>
+        <div class="forecast-day">
+            <p>Day 3</p>
+            <p>Temperature: 26°C</p>
+            <p>Condition: Showers</p>
+        </div>
+    </div>
+</body>
+</html>
