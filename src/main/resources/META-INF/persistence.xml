@@ -10,11 +10,11 @@
         <property name="javax.persistence.jdbc.driver"
           value="com.mysql.cj.jdbc.Driver" />
         <property name="javax.persistence.jdbc.url"
-          value="jdbc:mysql://database.cb89rlzpxqil.ap-south-1.rds.amazonaws.com:3306/database?createDatabaseIfNotExist=true" />
+          value="jdbc:mysql://facebook.ceyq6l1kg0nz.ap-south-1.rds.amazonaws.com:3306/facebook?createDatabaseIfNotExist=true" />
         <property name="javax.persistence.jdbc.user"
           value="admin" />
         <property name="javax.persistence.jdbc.password"
-          value="admin123" />
+          value="Adminroot" />
         <property name="hibernate.show_sql" value="false" />
 
 
