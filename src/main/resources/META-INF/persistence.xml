@@ -10,7 +10,7 @@
         <property name="javax.persistence.jdbc.driver"
           value="com.mysql.cj.jdbc.Driver" />
         <property name="javax.persistence.jdbc.url"
-          value="jdbc:mysql://facebook.ceyq6l1kg0nz.ap-south-1.rds.amazonaws.com:3306/facebook?createDatabaseIfNotExist=true" />
+          value="jdbc:mysql://project-db.cg92sss7amcv.ap-south-1.rds.amazonaws.com:3305/project-db?createDatabaseIfNotExist=true" />
         <property name="javax.persistence.jdbc.user"
           value="admin" />
         <property name="javax.persistence.jdbc.password"
